@@ -1,0 +1,86 @@
+html {
+  font-size: 10px;
+}
+.container {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type='checkbox'] {
+  display: inline-block;
+}
+
+.heading {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.field {
+  border: none;
+  width: 30rem;
+  padding: 1.5rem 1rem;
+  margin: 1rem 1rem 1rem 0rem;
+  outline: 0.1px solid rgb(203, 203, 203);
+
+  border-radius: 0.5rem;
+}
+.select {
+  text-align: center;
+}
+.shaker {
+  display: flex;
+  flex-direction: row;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.privacy {
+  margin-top: -25px;
+}
+.submit {
+  background-color: blue;
+  font-weight: bold;
+  color: white;
+  width: 32rem;
+  padding: 2rem;
+  border: none;
+  cursor: pointer;
+
+  margin-right: 10px;
+}
+select {
+  border: none;
+  width: 30rem;
+  padding: 1.5rem 1rem;
+  margin: 1rem 1rem 1rem 0rem;
+  outline: 0.1px solid rgb(203, 203, 203);
+  border-radius: 0.5rem;
+}
+select::placeholder {
+  color: gray;
+}
+@media screen and (max-width: 680px) {
+  .shaker {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .privacy {
+    margin-top: -10rem;
+  }
+  .submit {
+    margin-top: 0.7rem;
+  }
+  select {
+    width: 32rem;
+  }
+}

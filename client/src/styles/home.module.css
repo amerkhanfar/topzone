@@ -1,0 +1,21 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 3rem;
+  color: black;
+  margin-top: 2rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}

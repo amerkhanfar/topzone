@@ -1,0 +1,62 @@
+html {
+  font-size: 10px;
+}
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+input {
+  display: block;
+}
+label {
+  font-size: 1.2rem;
+}
+label a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.field {
+  border: none;
+  width: 30rem;
+  padding: 1.5rem 1rem;
+  margin: 1rem 1rem 1rem 0rem;
+  outline: 0.1px solid rgb(203, 203, 203);
+
+  border-radius: 0.5rem;
+}
+
+.submit {
+  background-color: blue;
+  font-weight: bold;
+  color: white;
+  width: 32rem;
+  padding: 2rem;
+  border: none;
+  cursor: pointer;
+}
+.forgot {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.forgot a {
+  text-decoration: none;
+  color: grey;
+}
+.redirect {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.redirect a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
